@@ -1,0 +1,46 @@
+
+th,td{
+	width: 20%;
+	text-align: center;
+	height: 60px
+
+}
+.contains_emojis{
+	position: absolute;
+	display: none;
+	background-color: #99ff99;
+	font-size: 30px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 12px;
+	justify-content: space-around;
+	z-index: 1
+
+}
+.containsaction{
+	position: relative;
+}
+.lienref{
+	text-decoration: none;
+	color: #ff5050
+}
+.lienref:hover{
+	text-decoration: none;
+
+}
+.containsaction:hover .contains_emojis{
+	display: flex;
+}
+.mess{
+	position: relative;
+}
+.impair{
+	background-color: #00ffcc
+}
+.pair{
+	background-color:#ffff66 
+}
+.titretête{
+	background-color: #cc66ff;
+	border-bottom: 1px solid
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion des articles page 4</title>
+	<link rel="stylesheet" type="text/css" href="CSS/page14.css">
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="CSS/page1.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="containsnav">
+		<div class="container-fluid navnav" style="background-color: #333333; overflow: hidden;">
+			<div class="row">
+				<div class="col-sm-4 navmeft">
+					<a href="page1.html" class="navbar ablock survol active">Gestion des articles</a>
+					<a href="page2.html" class="navbar ablock survol lidoi">Gestion des tiers</a>
+				</div>
+				<div class="col-sm-3 titreTitre">
+					nom du site
+				</div>
+				
+				<div class="col-sm-5 navright">
+					<a class="navbar dblock barsearch"><span class="labe">Search</span><button class="navbout"><i class="fa fa-search"></i></button><input class="zonesearch" autofocus="none" type="text" name="search" placeholder="search..."></a>
+					<a href="login.html" class="navbar dblock survol deco">Deconnexion</a>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- corps -->
+
+	<div class="container-fluid">
+		<div class="row  corpscorps">
+			<div class="col-sm-4 leftnavb" style="background-color: grey; cursor: pointer;">
+				<div class="categorie1">
+					<h2 class="titlecategorie"><i class="fa fa-shopping-basket"></i>Gestion de l’approvisionnement : </h2>
+
+					<ul>
+						<li class="pointli"><a href="page1.html" class="titlelien">Formulaires d'insertion des achats</a></li>
+						<li class="pointli"><a href="page12.html" class="titlelien">Tableau affichant la liste des achats</a></li>
+					</ul>
+				</div>
+				<div class="categorie1 troisreste">
+					<h2 class="titlecategorie"><i class="fa fa-calendar-check-o"></i>Gestion du stock :</h2>
+					<ul>
+						<li class="pointli"><a href="page13.html" class="titlelien">Tableau affichant la liste des articles</a></li>
+					</ul>
+				</div>
+				<div class="categorie1 troisreste">
+					<h2 class="titlecategorie"><i class="fa fa-money"></i>Gestion de la caisse :</h2>
+					<ul>
+						<li class="pointli"><a href="page14.html" class="titlelien titleactive">Tableau relatant la liste des ventes</a></li>
+					</ul>
+				</div>
+				<div class="categorie1 troisreste">
+					<h2 class="titlecategorie"><i class="fa fa-sticky-note"></i>Gestion des charges :</h2>
+					<ul>
+						<li class="pointli"><a href="page15.html" class="titlelien">Formulaire d'insertion des charges</a></li>
+						<li class="pointli"><a href="page16.html" class="titlelien">tableau affichant la liste des charges</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<h1 class="titlepage"> gestion des articles</h1>
+				<h2 class="sous_titre">Gestion de la caisse</h2>
+
+				<table>
+					<tr>
+						<th style="width: 10%" class="imapir">Reference produit</th>
+						<th style="width: 30%" class="pair">Nom du produit</th>
+						<th style="width: 20%" class="imapir">Prix Unitaire</th>
+						<th style="width: 20%" class="pair">Quantité Restant</th>
+						<th style="width: 20%" class="imapir">Prix total</th>
+					</tr>
+
+					<tr>
+						<td style="width: 10%" class="imapir">1</td>
+						<td style="width: 30%" class="pair">Farilac</td>
+						<td style="width: 20%" class="imapir">800</td>
+						<td style="width: 20%" class="pair">150</td>
+						<td style="width: 20%" class="imapir">120 000</td>
+					</tr>
+
+					<tr>
+						<td style="width: 10%" class="imapir">2</td>
+						<td style="width: 30%" class="pair">Yaourt-socolait</td>
+						<td style="width: 20%" class="imapir">1000</td>
+						<td style="width: 20%" class="pair">200</td>
+						<td style="width: 20%" class="imapir">200 000</td>
+					</tr>
+
+					<tr>
+						<td style="width: 10%" class="imapir">15</td>
+						<td style="width: 30%" class="pair">Mini-chocot</td>
+						<td style="width: 20%" class="imapir">200</td>
+						<td style="width: 20%" class="pair">500</td>
+						<td style="width: 20%" class="imapir">100 000</td>
+					</tr>
+
+					<tr>
+						<td style="width: 10%" class="imapir">20</td>
+						<td style="width: 30%" class="pair">koba-aina</td>
+						<td style="width: 20%" class="imapir">800</td>
+						<td style="width: 20%" class="pair">200</td>
+						<td style="width: 20%" class="imapir">160 000</td>
+					</tr>
+				</table>			
+				
+				<button class="ajouter" type="submit"></button>	
+
+				<div class="tot">
+					<div class="in1">
+						<label>Total vente</label><br>
+						<input class="totalvente" type="number" name="total_vente" readonly>
+						<span>Ariary</span>
+						
+					</div><br>
+					<div class="in2">
+						<label>Total Tresorerie</label><br>
+						<input class="totalTresorerie" type="number" name="totalTresorerie" readonly>
+						<span>Ariary</span>
+						
+					</div>
+					
+				</div>
+
+
+				<div class="pagingcontainer1">
+					<h3 align="center">Gestion des articles</h3>
+					<div class="containpagers">
+						<a class="lienpagin1" href="page13.html">&#139;&#139;</a>
+						<a class="lienpagin1 space" href="page1.html">1</a>
+						<a class="lienpagin1 space" href="page12.html">2</a>
+						<a class="lienpagin1 space" href="page13.html">3</a>
+						<a class="lienpagin1 pageactive space" href="page14.html">4</a>
+						<a class="lienpagin1 space" href="page15.html">5</a>
+						<a class="lienpagin1 space" href="page16.html">6</a>
+						<a class="lienpagin1 space" href="page15.html">&#155;&#155;</a>
+					</div>
+				</div>
+				<div class="pagingcontainer1">
+					<h3 align="center">Gestion des tiers</h3>
+					<div class="containpagers">
+						<a class="lienpagin1" href="">&#139;&#139;</a>
+						<a class="lienpagin1 space" href="page2.html">1</a>
+						<a class="lienpagin1 space" href="page21.html">2</a>
+						<a class="lienpagin1 space" href="page22.html">3</a>
+						<a class="lienpagin1 space" href="page23.html">4</a>
+						<a class="lienpagin1 space" href="">&#155;&#155;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- footers -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" align="right">
+				<p class="foots"> <sup style="color: grey">&#169;</sup> <span class="guillemet">&#168;</span><span class="you">you</span> <span class="deserve">deserve</span> <span class="it">it</span><span class="guillemet">&#168;</span> <sub style="color: grey">by</sub> <span class="Tsoa">Tsoa</span> </p>
+			</div>
+		</div>
+	</div>
+
+
+	
+</body>
+</html>

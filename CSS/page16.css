@@ -1,0 +1,30 @@
+table,td,th{
+	text-align: center;
+	border-right:  double;
+	border-left:  double
+}
+tr{
+	height: 70px;
+
+}
+th{
+	border-bottom: double;
+	border-top-style: double;
+}
+td{
+	border-bottom-style: dashed;
+}
+.actiontableau{
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+.confirm{
+	position: relative;
+	margin-top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	width:20%;
+	height: 60px;
+	font-weight: bold; 
+}

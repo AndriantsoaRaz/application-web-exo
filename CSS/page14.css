@@ -1,0 +1,48 @@
+.ajouter{
+	background-color: lime;
+    position: relative;
+    width: 30%;
+    font-size: 100px;
+    padding-top: 1px;
+    height: 66px;
+    left: 50%;
+    overflow: hidden;
+    margin-top: 31px;
+    transform: translate(-50%);
+    transition: 3s
+}
+.ajouter::before{
+	content: '+';
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    border: 1px solid;
+    height: 0px;
+    transform: translate(-42%);
+    color: white;
+    font-weight: bold;
+}
+table,th,td{
+	text-align: center;
+	border-bottom: 2px dashed white
+}
+.imapir{
+	background-color: #66ffff
+}
+.pair{
+	background-color: #ffff66 
+}
+th{
+	font-family: Aharoni;
+    color: #339966
+}
+.totalvente:focus,.totalTresorerie:focus{
+    border: lime;
+    background: #ccff99;
+    font-weight: bold;
+}
+.totalvente:hover,.totalTresorerie:hover{
+    border-color: #ff0066
+}
+
+

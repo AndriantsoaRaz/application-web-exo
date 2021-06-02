@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0
+}
+.navbar{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 17px;
+	background-color: #000000;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-family: calibri;
+	text-decoration: none;
+	z-index: 2;
+}
+
+.active{
+	background-color: #ff1a1a
+}
+.zonesearch{
+	border-radius: 6px;
+	margin-left: 7px
+}
+.labe{
+	margin-right: 8px;
+	color: white
+}
+
+.navbout{
+	background-color: #000000;
+	box-shadow: 0px 0px;
+	border: 0px;
+	color: white;
+	cursor: pointer;
+}
+
+.navbar:hover{
+	text-decoration: none
+}
+.survol:hover{
+	background-color: #40ff00
+}
+.namecomp{
+    margin-left: 10px;
+    margin-top: 2px;
+    color: white;
+    font-family: fantasy;
+    font-size: 32px
+    
+}
+
+.titlepage{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'FontAwesome';
+	word-break: break-word
+
+}
+.titlecategorie{
+	font-size: 20px;
+	color: white
+}
+.fa{
+	margin-right: 6px
+}
+ul{
+	margin-left: 60px;
+
+}
+li.pointli,.titlelien{
+	list-style: none;
+	color: #ff6666;
+	font-weight: bold;
+	text-decoration: none
+
+}
+.titlelien::before{
+	content: '+'
+}
+.titlelien:hover{
+	text-decoration: none;
+	color: #9999ff
+
+}
+.formulaire{
+	
+}
+.containerformulaire{
+	margin-top: 30px;
+	
+}
+.commande{
+	border-radius: 5px;
+	width: 80%;
+	height: 50px;
+	animation-name: inbouge;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+
+}
+
+@keyframes inbouge{
+	0%{transform: rotate(0);}
+	50%{transform: rotate(10deg);}
+	100%{transform: rotate(0);}
+}
+.labcommande{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive;
+	text-transform: uppercase;
+}
+.validation{
+	background-image: linear-gradient(to right,#33ccff,#99ff66);
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+	width: 20%;
+	height: auto;
+	position: relative;
+    left: 70%;
+    padding-top: 17px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.validation:hover{
+	background-color: pink;
+	background-image: none
+}
+ul li a.titleactive{
+	color: #00ff00
+}
+.sous_titre{
+	text-align: center;
+    color: #33ccff;
+    font-size: 22px;
+    font-family: forte;
+    text-transform: uppercase;
+    word-break: break-word
+}
+.categorie1{
+	margin-top: 15px
+}
+
+.troisreste{
+	margin-top: 30px
+}
+
+.navnav{
+	position: fixed;
+	z-index: 1;
+	left: 0px;
+	width: 100%;
+	
+}
+
+.titreTitre{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: cursive;
+}
+
+.containsgeneral{
+	position: relative;
+	height: 60px;
+	margin-bottom: 8px
+
+}
+.navright{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.navmeft{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dblock{
+	display: block;
+}
+.ablock{
+	display: block;
+}
+.lidoi{
+	position: relative;
+	left: 6%
+}
+.leftnavb{
+	border-radius: 20px;
+	word-wrap: break-word;
+}
+
+.containpagers{
+	background-color:#ffb84d;
+	display: flex;
+	flex-wrap: wrap;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	overflow: hidden;
+	border-radius: 10px
+
+
+}
+.lienpagin1{
+	padding: 2%;
+	margin: 0;
+	box-sizing: border-box;
+	background-color:#99ccff;
+	display: block;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black
+}
+.pagingcontainer1{
+	position: relative;
+	margin-top: 20px;
+	
+}
+.space{
+	margin-left: 3px
+}
+.lienpagin1:hover{
+	background-image: linear-gradient(to bottom right,#ff0000,#ff9933,#ffff66);
+	text-decoration: none;
+}
+.pageactive{
+	background-color: #66ff99
+}
+h3{
+	font-size: 15px;
+	font-family: forte
+}
+
+.containsnav{
+	position: relative;
+	width: 100%;
+	height: 70px
+}
+
+
+
+@media only screen and (max-width:954px ){
+	.corpscorps{
+		margin-top: 57px
+	}
+}
+
+@media only screen and (max-width:728px ){
+	.corpscorps{
+		margin-top: 80px
+	}
+}
+
+@media only screen and (max-width:570px ){
+	.corpscorps{
+		margin-top: 113px
+	}
+}
+
+@media only screen and (max-width:432px ){
+	.corpscorps{
+		margin-top: 175px
+	}
+}
+
+@media only screen and (max-width:335px ){
+	.corpscorps{
+		margin-top: 228px
+	}
+}
+
+
+/*footers*/
+.foots{
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: Big Caslon;
+	background-color: rgb(0, 0, 0, 0.80);
+	width: 40%;
+	border-radius: 12px;
+	box-shadow: 0px 0px 0px 0px;
+	animation-name: pulse;
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+	margin-top: 20px
+}
+
+@keyframes pulse{
+	to{
+		box-shadow: 0px 0px 0px 18px rgb(0, 0, 0, 0.01);
+		
+	}
+}
+.you{
+	color: lime
+}
+.deserve{
+	color: white
+}
+.it{
+	color: red
+}
+
+.guillemet{
+	color: white;
+
+}
+
+.Tsoa{
+	color: #99ff99;
+	font-family: forte
+}

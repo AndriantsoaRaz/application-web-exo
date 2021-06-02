@@ -1,0 +1,62 @@
+table,tr,td{
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+}
+
+.tete{
+	background-color: #66ff66
+}
+
+.impair{
+	background-color: #ff99cc;
+	animation-name: changeA;
+	animation-duration: 2s;
+	animation-iteration-count: 1
+}
+@keyframes changeA{
+	0%{background-color:#ff99cc }
+	25%{background-color:#99ccff }
+	50%{background-color:#ff99cc }
+	75%{background-color:#99ccff }
+	100%{background-color:#ff99cc }
+}
+
+.pair{
+	background-color: #99ccff;
+	animation-name: changeB;
+	animation-duration: 2s;
+	animation-iteration-count: 1
+}
+@keyframes changeB{
+	0%{background-color:#99ccff }
+	25%{background-color:#ff99cc }
+	50%{background-color:#99ccff }
+	75%{background-color:#ff99cc }
+	100%{background-color:#99ccff }
+}
+.actiontableau{
+	display: inline-block;
+	text-decoration: none;
+	color: blue
+}
+.icodroite{
+    position: relative;
+    left: 18px;
+}
+.confirm{
+	background-color: #00ff00;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+	width: 20%;
+	height: auto;
+	position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 17px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}

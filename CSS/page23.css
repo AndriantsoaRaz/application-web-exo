@@ -1,0 +1,32 @@
+.botfafa::before{
+	content: '+';
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    border: 1px solid;
+    height: 0px;
+    transform: translate(-42%);
+    color: white;
+    font-weight: bold;
+}
+.botfafa{
+	background-image: linear-gradient(to right,#ff9966,#ff6699,#ff00ff,#9933ff);
+    position: relative;
+    width: 30%;
+    font-size: 100px;
+    padding-top: 1px;
+    height: 66px;
+    left: 50%;
+    overflow: hidden;
+    margin-top: 31px;
+    transform: translate(-50%);
+    transition: 3s;
+    
+}
+table,th,td{
+	text-align: center;
+}
+tr{
+	height: 50px;
+	border-bottom: 2px groove
+}

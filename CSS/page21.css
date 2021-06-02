@@ -1,0 +1,62 @@
+.containscontact a{
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+}
+.containscontact{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.containsfournisseur:hover .picsfrns{
+	display: block;
+}
+
+.picsfrns{
+	display: none;
+	position: absolute;
+	z-index: 1;
+
+}
+img{
+	border-radius: 200px
+}
+th,td{
+	text-align: center;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+.containsfournisseur{
+    width: 38%;
+    text-align: center;
+    margin-left: 33%;
+}
+.nom{
+	word-break: break-all;
+}
+tr{
+	height: 100px;
+}
+.botfafa{
+	width: 25%;
+	height: auto;
+	padding: 20px;
+}
+.fa-save::before{
+	font-size:50px;
+	color: white;
+}
+.botfafa{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	background-image: linear-gradient(to right,#99ccff,#ff9933,#ff6666);
+}
+.pair:hover,.impair:hover{
+	background-color: #bbbb77;
+}
+.titletab:hover{
+	background-color: #009933;
+}

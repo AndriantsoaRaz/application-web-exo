@@ -1,0 +1,41 @@
+.chargecentre{
+	margin-top: 20px
+}
+.botsoum{
+	position: absolute;
+	height: 100px;
+	width: auto;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #85a3e0;
+	animation-name: mouvement;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+	word-break: break-all;
+	margin-top: 14px
+
+}
+@keyframes mouvement{
+	0%{transform: 0}
+	20%{background-color:#66ff66 ; transform: rotate(360deg);}
+	40%{background-color:#66ff66 ; transform:0;}
+	60%{background-color:#ff0066 ; transform: rotateX(360deg);}
+	80%{background-color:#ff0066 ;transform:0;}
+	100%{background-color:#85a3e0 ;transform: 0}
+}
+.etiquette{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Gabriola
+}
+.chargecentre input{
+	width: 70%;
+	height: 45px;
+	background-color: wheat
+}
+.chargecentre input:focus{
+	background-color: #7a7a52
+}
+ .chargecentre input.inser:hover{
+	border-image: linear-gradient(to right,#33ccff,#66ff99,#ff6666) 20 stretch
+}
